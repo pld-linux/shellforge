@@ -9,6 +9,7 @@ Group:		Development/Languages
 Source0:	http://www.cartel-info.fr/pbiondi/python/%{name}-%{version}.tar.gz
 # Source0-md5:	4fa4e99303e7fc9b47f4534d2bea0b05
 URL:		http://www.cartel-info.fr/pbiondi/shellforge.html
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
