@@ -1,4 +1,3 @@
-%include /usr/lib/rpm/macros.python
 Summary:	C to shellcode conversion programm
 Summary(pl):	Program do konwersji programów w C do shellcode
 Name:		shellforge
