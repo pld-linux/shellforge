@@ -2,12 +2,12 @@
 Summary:	C to shellcode conversion programm
 Summary(pl):	Program do konwersji programów w C do shellcode
 Name:		shellforge
-Version:	0.1.14
+Version:	0.1.15
 Release:	1
 License:	GPL v2+
 Group:		Development/Languages
 Source0:	http://www.cartel-info.fr/pbiondi/python/%{name}-%{version}.tar.gz
-# Source0-md5:	4fa4e99303e7fc9b47f4534d2bea0b05
+# Source0-md5:	3fad06a842f768b22d0a9146ebc0d263
 URL:		http://www.cartel-info.fr/pbiondi/shellforge.html
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
