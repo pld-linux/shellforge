@@ -22,7 +22,7 @@ tests.
 %description -l pl
 shellforge pozwana na pisanie shellcode w jêzyku C. Dokonuje
 translacji kodu w C na shellcode który uruchomi siê w ¶rodowisku
-Linux/x86. Udostêpnia makra do podmiany wywo³añ funkcji libc z
+Linux/x86. Udostêpnia makra do podmiany wywo³añ funkcji libc
 bezpo¶rednimi wywo³aniami oraz skrypt w Pythonie do automatyzacji
 kompilacji, rozpakowywania, kodowania i testów.
 
@@ -33,8 +33,8 @@ kompilacji, rozpakowywania, kodowania i testów.
 rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_includedir}/%{name}}
-install shellforge.py $RPM_BUILD_ROOT/%{_bindir}
-install include/* $RPM_BUILD_ROOT/%{_includedir}/%{name}
+install shellforge.py $RPM_BUILD_ROOT%{_bindir}
+install include/* $RPM_BUILD_ROOT%{_includedir}/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
