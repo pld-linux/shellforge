@@ -1,5 +1,5 @@
 Summary:	C to shellcode conversion programm
-Summary(pl.UTF-8):   Program do konwersji programów w C do shellcode
+Summary(pl.UTF-8):	Program do konwersji programów w C do shellcode
 Name:		shellforge
 Version:	0.1.15
 Release:	1
