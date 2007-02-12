@@ -1,5 +1,5 @@
 Summary:	C to shellcode conversion programm
-Summary(pl):	Program do konwersji programów w C do shellcode
+Summary(pl.UTF-8):   Program do konwersji programÃ³w w C do shellcode
 Name:		shellforge
 Version:	0.1.15
 Release:	1
@@ -18,12 +18,12 @@ provides macros to substitute libc calls with direct system calls and
 a Python script to automate compilation, extraction, encoding, and
 tests.
 
-%description -l pl
-shellforge pozwana na pisanie shellcode w jêzyku C. Dokonuje
-translacji kodu w C na shellcode który uruchomi siê w ¶rodowisku
-Linux/x86. Udostêpnia makra do podmiany wywo³añ funkcji libc
-bezpo¶rednimi wywo³aniami oraz skrypt w Pythonie do automatyzacji
-kompilacji, rozpakowywania, kodowania i testów.
+%description -l pl.UTF-8
+shellforge pozwana na pisanie shellcode w jÄ™zyku C. Dokonuje
+translacji kodu w C na shellcode ktÃ³ry uruchomi siÄ™ w Å›rodowisku
+Linux/x86. UdostÄ™pnia makra do podmiany wywoÅ‚aÅ„ funkcji libc
+bezpoÅ›rednimi wywoÅ‚aniami oraz skrypt w Pythonie do automatyzacji
+kompilacji, rozpakowywania, kodowania i testÃ³w.
 
 %prep
 %setup -q -n %{name}
