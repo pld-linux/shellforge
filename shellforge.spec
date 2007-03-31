@@ -8,6 +8,7 @@ Group:		Development/Languages
 Source0:	http://www.cartel-info.fr/pbiondi/python/%{name}-%{version}.tar.gz
 # Source0-md5:	3fad06a842f768b22d0a9146ebc0d263
 URL:		http://www.cartel-info.fr/pbiondi/shellforge.html
+BuildRequires:	rpm-pythonprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -41,5 +42,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%doc hello.c
 %{_includedir}/%{name}
