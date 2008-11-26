@@ -7,7 +7,7 @@ License:	GPL v2+
 Group:		Development/Languages
 Source0:	http://www.cartel-info.fr/pbiondi/python/%{name}-%{version}.tar.gz
 # Source0-md5:	3fad06a842f768b22d0a9146ebc0d263
-URL:		http://www.cartel-info.fr/pbiondi/shellforge.html
+URL:		http://www.secdev.org/projects/shellforge/
 BuildRequires:	rpm-pythonprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
